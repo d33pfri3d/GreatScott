@@ -1,0 +1,15 @@
+{
+  "name": "great-scott",
+  "version": "1.0.0",
+  "description": "",
+  "main": "update.js",
+  "scripts": {
+    "run": "node update.js"
+  },
+  "keywords": [],
+  "author": "Shaun D",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^48.0.0"
+  }
+}
