@@ -11,7 +11,7 @@ var TOKEN_DIR =
 var TOKEN_PATH = TOKEN_DIR + "youtube-updater.json";
 
 const youtube = google.youtube("v3");
-const VIDEO_ID = "i3GMmNcWbp4";
+const VIDEO_ID = "NhcZteF-sDE";
 
 // Load client secrets from a local file.
 fs.readFile("credentials.json", function processClientSecrets(err, content) {
