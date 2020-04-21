@@ -98,6 +98,8 @@ function storeToken(token) {
   });
 }
 
+// COde above here is from the Google Docs
+
 const makeAuthCall = (auth) => {
   youtube.videos.list(
     {
@@ -124,7 +126,9 @@ const updateVideoTitle = (video, auth) => {
   // get the number of views
   let views = video.statistics.viewCount;
   let likes = video.statistics.likeCount;
-  video.snippet.title = `This video has ${views} views and ${likes} likes`;
+  let commentCount = video.statistics.commentCount;
+
+  video.snippet.title = `This video has ${views} views, ${likes} likes and ${commentCount} comments`;
 
   console.log(`Updating title to ${video.snippet.title}`);
 
